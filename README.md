@@ -1,35 +1,18 @@
 # Ads Astra
 
-A static landing page built with Next.js and deployed on Vercel.
-
-## Getting Started
-
-First, install the dependencies:
-
-```bash
-npm install
-# or
-yarn install
-```
-
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Deployment
-
-This project is configured for deployment on Vercel. Simply push to your repository and Vercel will automatically deploy your site.
+A simple static landing page for a satirical space advertising concept.
 
 ## Project Structure
 
-- `/src/app` - Contains the main application pages and components
-- `/public` - Static assets like images
-- `/src/app/globals.css` - Global styles
-- `/src/app/layout.tsx` - Root layout component
-- `/src/app/page.tsx` - Home page component
+The project consists of just two files:
+
+- `ads-astra.html` - The main HTML file containing all structure, content and styles
+- `do-it.jpg` - Background image used in the hero section
+
+## Hosting
+
+To host this site, simply upload both files to any static web hosting service (GitHub Pages, Netlify, Vercel, Amazon S3, etc.) maintaining their relative paths.
+
+## Local Development
+
+To view the site locally, simply open the `ads-astra.html` file in any web browser.
